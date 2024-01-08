@@ -1,5 +1,11 @@
-import styles from "./page.module.css";
+import styles from "./home.module.css";
 
-export default function Home() {
-  return <div>navbar</div>;
-}
+const Home = () => {
+  return (
+    <div>
+      <h2 className={styles.title}>Home Page</h2>
+    </div>
+  );
+};
+
+export default Home;
